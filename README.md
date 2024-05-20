@@ -14,7 +14,7 @@
 | "三庭五眼"颜值打分    | 基于原仓库的`3-face_mesh.py`进行二次开发，原代码参考自[论坛博客](https://mc.dfrobot.com.cn/thread-313268-1-1.html)。主要实现了使用MediaPipe进行面部五眼进行锚点，然后计算其L2范数诱导的距离作为评判标准，给出颜值评分 | [doc](#三庭五眼颜值打分) |[code](demo/appearance_eval/face_eval.py)|
 | 基于CNN的垃圾分类检测 | 论坛地址：https://mc.dfrobot.com.cn/thread-319039-1-1.html | [doc](#自行车智能安全辅助系统) |			|
 | 自行车智能安全辅助系统 | 论坛地址：https://mc.dfrobot.com.cn/thread-313774-1-1.html | [doc](#基于CNN的垃圾分类检测) |	|
-|  |  |	|	|
+| AI跟随摄像头 | 利用MediaPipe识别面部中心点，为了使面部保持在中心，计算误差借助PID算法进行平滑处理，然后使用舵机控制云台，实现面部居中跟随的效果 | [doc](#AI跟随摄像头) | [code](demo/face_follow) |
 
 
 
@@ -52,7 +52,10 @@
 
 
 
+## 	AI跟随摄像头
 
+<img src="img/face_follow1.jpg" alt="hand1" style="zoom: 35%;" />
 
+参考：https://mc.dfrobot.com.cn/thread-313291-1-1.html
 
 **To Be Continue...**
